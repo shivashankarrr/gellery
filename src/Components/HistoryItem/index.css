@@ -1,0 +1,39 @@
+.list-item {
+  list-style-type: none;
+  margin: 15px;
+  padding: 15px;
+  background-color: #ffffff;
+  font-family: roboto;
+}
+.history-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  align-items: center;
+}
+.history-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.time {
+  color: #475569;
+  padding-left: 10px;
+}
+.icon {
+  padding-left: 25px;
+  height: 25px;
+}
+.icon-name {
+  color: #475569;
+  padding-left: 15px;
+}
+.icon-url {
+  color: #64748b;
+}
+.button {
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 0px;
+}
